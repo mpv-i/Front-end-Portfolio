@@ -9,21 +9,28 @@
     <title>Bob's Burgers</title>
 </head>
 <body>
+    <div class="header">
+        <h1>Bob's Burgers</h1>
+        <h2>~The Official Unofficial Fan Club~</h2>
+    </div>
     <div class="container">
         <img src="https://w0.peakpx.com/wallpaper/765/623/HD-wallpaper-bobs-burgers-fox-thumbnail.jpg" alt="show poster">
-        <div class="header">
-            <h1>Bob's Burgers</h1>
-            <h2>~The Official Unofficial Fan Club~</h2>
-        </div>
-    
-        <div class="submission-form"></div>
+        <div class="submission-form">
             <form action="main.js" method="POST" id="new-membership">
                 <h3>JOIN THE CLUB</h3>
-                <br>
+                <hr>
                 <input type="text" name="f-name" id="f-name" placeholder="First Name" required>
+                <br>
+                <br>
                 <input type="text" name="l-name" id="l-name" placeholder="Last Name" required>
+                <br>
+                <br>
                 <input type="email" name="email" id="email" placeholder="Email">
+                <br>
+                <br>
+                <button type="submit" id="submit-btn">JOIN NOW</button>
             </form>
+        </div>
     </div>
 </body>
 </html>
