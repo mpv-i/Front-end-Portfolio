@@ -1,7 +1,8 @@
-.container {
-    display: grid;
-    grid-template-columns: 1fr  1fr 1fr;
+
+body {
+    background-image: url(https://virtualbackgrounds.site/wp-content/uploads/2022/03/bobs-burgers-behind-the-counter.jpg);
 }
+
 
 h1 {
     text-align: center;
@@ -9,4 +10,22 @@ h1 {
 
 h2 {
     text-align: center;
+    font-size: large;
+}
+
+h3 {
+    color: rgb(63, 120, 253);
+}
+
+form {
+    text-align: center;
+}
+
+#submit-btn {
+    text-align: center;
+    cursor: pointer;
+    font-family: Verdana;
+    background-color: gold;
+    padding: 20px;
+    border-radius: 10px;
 }
