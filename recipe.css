@@ -79,3 +79,27 @@ li {
 #n-1, #n-2, #n-3, #n-4, #n-5, #n-6 {
     color: darkblue;
 }
+
+@media (max-width: 1400px){
+    body {
+        text-align: center;
+    }
+    .heading {
+        grid-template-columns: 1fr;
+        text-align: center;
+        color: black;
+        font-family: Impact;
+        border: 20px round black;
+    }
+
+    .container {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+    }
+
+    .container-2 {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+    }
+
+}
