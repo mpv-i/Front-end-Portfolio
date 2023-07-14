@@ -23,13 +23,61 @@ h3 {
 
 .container {
     display: grid;
-    grid-template-columns: 625px auto;
+    grid-template-columns: 625px 400px 300px;
 }
 
 #ing {
+    text-align: center;
+}
+
+hr {
+    color: greenyellow;
+}
+
+li {
     border: 1px solid gold;
     border-radius: 30px;
     width: fit-content;
     background-color: gold;
-    padding: 25px;
+    text-align: left;
 }
+
+#steps {
+    border: 1px solid yellow;
+    background-image: linear-gradient(red, orange, yellow);
+    padding: 30px;
+}
+
+.container-2 {
+    display: grid;
+    grid-template-columns: 700px 70px 700px;
+}
+
+#s-1, #n-1 {
+    font-weight: bold;
+}
+
+#s-2, #n-2 {
+    font-weight: bold;
+}
+
+#s-3, #n-3 {
+    font-weight: bold;
+}
+
+#s-4, #n-4 {
+    font-weight: bold;
+}
+
+#s-4, #n-4 {
+    font-weight: bold;
+}
+
+#s-5, #n-5 {
+    font-weight: bold;
+}
+
+#s-6, #n-6 {
+    font-weight: bold;
+}
+
