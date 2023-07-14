@@ -31,6 +31,10 @@ a {
     cursor: pointer;
 }
 
+a:hover {
+    background-image: linear-gradient(rgb(4, 192, 41), rgb(187, 253, 125));
+}
+
 .container {
     display: grid;
     grid-template-columns: 625px 400px 300px;
