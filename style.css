@@ -16,6 +16,7 @@ h2 {
 
 h3 {
     color: rgb(63, 120, 253);
+    font-size: 25px;
 }
 
 form {
@@ -30,9 +31,33 @@ input {
 
 #submit-btn {
     text-align: center;
+    font-weight: bold;
     cursor: pointer;
     font-family: Verdana;
-    background-color: gold;
+    background-image: linear-gradient(yellow, gold);
     padding: 20px;
     border-radius: 10px;
+}
+
+.recipe-btn {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.r-link {
+    border: 1px solid rgb(183, 34, 1);
+    border-radius: 40px;
+    padding: 20px;
+    background-image: linear-gradient( red,  rgb(183, 34, 1));
+    font-weight: bold;
+    font-family: Impact;
+    font-size: 30px;
+    color: rgb(183, 34, 1);
+    font-style: italic;
+    text-align: center;
+    cursor: pointer;
+}
+
+a {
+    color: black;
 }

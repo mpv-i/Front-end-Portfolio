@@ -21,6 +21,16 @@ h3 {
     font-style: italic;
 }
 
+a {
+    border: 1px solid darkorange;
+    border-radius: 20px;
+    background-image: linear-gradient(rgb(168, 2, 2), rgb(253, 100, 100));
+    color: black;
+    font-size: 20px;
+    padding: 25px;
+    cursor: pointer;
+}
+
 .container {
     display: grid;
     grid-template-columns: 625px 400px 300px;
@@ -50,34 +60,22 @@ li {
 
 .container-2 {
     display: grid;
-    grid-template-columns: 700px 70px 700px;
+    grid-template-columns: 600px 180px 600px;
 }
 
-#s-1, #n-1 {
+#s-1, #n-1, #s-2, #n-2, #s-3, #n-3, #s-4, #n-4, #s-5, #n-5, #s-6, #n-6 {
     font-weight: bold;
+    text-align: center;
 }
 
-#s-2, #n-2 {
-    font-weight: bold;
+.step-1, .step-2, .step-3, .step-4, .step-5, .step-6 {
+    border: 1px solid yellow;
+    background-image: linear-gradient(greenyellow, yellow);
+    border-radius: 10px;
+    font-family:  Verdana;
 }
 
-#s-3, #n-3 {
-    font-weight: bold;
-}
 
-#s-4, #n-4 {
-    font-weight: bold;
+#n-1, #n-2, #n-3, #n-4, #n-5, #n-6 {
+    color: darkblue;
 }
-
-#s-4, #n-4 {
-    font-weight: bold;
-}
-
-#s-5, #n-5 {
-    font-weight: bold;
-}
-
-#s-6, #n-6 {
-    font-weight: bold;
-}
-
